@@ -6,7 +6,6 @@ Operating System: macOS\
 Device: Mac\
 Tools: ipconfig, ping, nslookup
 
-**Test and Results**\
 <h1>Test 1: Identify Local IP Addresses</h1>
 <b>Command:</b> ipconfig getifaddr en0<br>
 <b>Result:</b> 192.168.1.161<br>
