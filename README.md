@@ -4,7 +4,7 @@ Objective: Verify local IP configuration, test connectivity to a public IP addre
 **Environment**\
 Operating System: macOS\
 Device: Mac\
-Tools: ipconfig, ping, nslookup\
+Tools: ipconfig, ping, nslookup
 
 **Test and Results**\
 **Test 1: Identify Local IP Addresses**\
