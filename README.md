@@ -15,13 +15,13 @@ Finding: The mac has a private IPv4 address assigned to its network interface\
 **Test 2: Test Network Connectivity**\
 Command: nslookup Google.com\
 Result: Resolved all four ICMP replies. Response times ranged from 6.846 ms to 11.517 ms\
-Finding: The Mac successfully reached a public ip address using ICMP\
+Finding: The Mac successfully reached a public ip address using ICMP
 
 **Test 3: The DNS Resolution**\
 Command: nslookup Google.com\
 Result: DNS returned multiple IPv4 addresses for Google.com\
 DNS server reported: 2600:4040:2f64: 5c00::1\
-Finding: DNS resolution was successful. The non authoritative answer is normal when a recursive DNS resolver provides cached or retrieved DNS information\
+Finding: DNS resolution was successful. The non authoritative answer is normal when a recursive DNS resolver provides cached or retrieved DNS information
 
 **Conclusion**\
 All three intial checks produced successful results. The mac had a local IPv4 address, reached a public IP address, and resolved a domain name through DNS\
@@ -32,7 +32,7 @@ These results establish a baseline for future troubleshooting exercises\
 -Network Connectivity Testing\
 -DNS Troubleshooting\
 -MacOS command-line utilities\
--Technical documentation and evidence-based analysis\
+-Technical documentation and evidence-based analysis
 
 **Next Steps**\
 -Identify the default network gateway\
