@@ -7,7 +7,7 @@ Device: Mac\
 Tools: ipconfig, ping, nslookup
 
 **Test and Results**\
-**Test 1: Identify Local IP Addresses**\
+<h1>**Test 1: Identify Local IP Addresses**\</h1>
 Command:ipconfig getifaddr en0\
 Result: 192.168.1.161\
 Finding: The mac has a private IPv4 address assigned to its network interface
