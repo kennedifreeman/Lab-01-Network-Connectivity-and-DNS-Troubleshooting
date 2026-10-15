@@ -22,6 +22,11 @@ Tools: ipconfig, ping, nslookup
 <b>DNS server reported:</b> 2600:4040:2f64: 5c00::1<br>
 <b>Finding:</b> DNS resolution was successful. The non authoritative answer is normal when a recursive DNS resolver provides cached or retrieved DNS information
 
+<h1>Test 4: Verify HTTPS Connectivity</h1>
+<b>Command:</b> curl -I --max-time 10 https://www.google.com<br>
+<b>Result:</b> Received an HTTP/2 200 response<br>
+<b>Finding:</b> The web server returned a successful HTTP response over HTTPS. The response included headers such as content-type: text/html and server: gws.
+
 <h1>Conclusion</h1>
 All three intial checks produced successful results. The mac had a local IPv4 address, reached a public IP address, and resolved a domain name through DNS.
 These results establish a baseline for future troubleshooting exercises<br> 
@@ -34,8 +39,6 @@ These results establish a baseline for future troubleshooting exercises<br>
 5. Technical documentation and evidence-based analysis
 
 <h1>Next Steps</h1>
-1. Identify the default network gateway<br>
-2. Inspect DNS configuration<br>
-3. Simulate a connectivity issue and document the troubleshooting process<br>
+1. Simulate a connectivity issue and document the troubleshooting process<br>
 
 <img width="865" height="492" alt="image" src="https://github.com/user-attachments/assets/afe517d4-ca17-45b6-b5c2-a9f37f92aa31" />
