@@ -28,15 +28,15 @@ All three intial checks produced successful results. The mac had a local IPv4 ad
 These results establish a baseline for future troubleshooting exercises\ 
 
 <h1>Skills Demonstrated</h1>
--Basic IP Addressing\
--Network Connectivity Testing\
--DNS Troubleshooting\
--MacOS command-line utilities\
--Technical documentation and evidence-based analysis
+1. Basic IP Addressing\
+2. Network Connectivity Testing\
+3. DNS Troubleshooting\
+4. MacOS command-line utilities\
+5. Technical documentation and evidence-based analysis
 
 <h1>Next Steps</h1>
--Identify the default network gateway\
--Inspect DNS configuration\
--Simulate a connectivity issue and document the troubleshooting process\
+1. Identify the default network gateway\
+2. Inspect DNS configuration\
+3. Simulate a connectivity issue and document the troubleshooting process\
 
 <img width="865" height="492" alt="image" src="https://github.com/user-attachments/assets/afe517d4-ca17-45b6-b5c2-a9f37f92aa31" />
