@@ -8,8 +8,8 @@ Tools: ipconfig, ping, nslookup
 
 **Test and Results**\
 <h1>Test 1: Identify Local IP Addresses</h1>
-**Command:** ipconfig getifaddr en0\
-**Result:** 192.168.1.161\
+**Command:** ipconfig getifaddr en0<br>
+**Result:** 192.168.1.161<br>
 **Finding:** The mac has a private IPv4 address assigned to its network interface
 
 <h1>Test 2: Test Network Connectivity</h1>
@@ -18,25 +18,25 @@ Tools: ipconfig, ping, nslookup
 **Finding:** The Mac successfully reached a public ip address using ICMP
 
 <h1>Test 3: The DNS Resolution</h1>
-**Command:** nslookup Google.com\
-**Result:** DNS returned multiple IPv4 addresses for Google.com\
-**DNS server reported:** 2600:4040:2f64: 5c00::1\
+**Command:** nslookup Google.com<br>
+**Result:** DNS returned multiple IPv4 addresses for Google.com<br>
+**DNS server reported:** 2600:4040:2f64: 5c00::1<br>
 **Finding:** DNS resolution was successful. The non authoritative answer is normal when a recursive DNS resolver provides cached or retrieved DNS information
 
 <h1>Conclusion</h1>
-All three intial checks produced successful results. The mac had a local IPv4 address, reached a public IP address, and resolved a domain name through DNS\
-These results establish a baseline for future troubleshooting exercises\ 
+All three intial checks produced successful results. The mac had a local IPv4 address, reached a public IP address, and resolved a domain name through DNS<br>
+These results establish a baseline for future troubleshooting exercises<br> 
 
 <h1>Skills Demonstrated</h1>
-1. Basic IP Addressing\
-2. Network Connectivity Testing\
-3. DNS Troubleshooting\
-4. MacOS command-line utilities\
+1. Basic IP Addressing<br>
+2. Network Connectivity Testing<br>
+3. DNS Troubleshooting<br>
+4. MacOS command-line utilities<br>
 5. Technical documentation and evidence-based analysis
 
 <h1>Next Steps</h1>
-1. Identify the default network gateway\
-2. Inspect DNS configuration\
-3. Simulate a connectivity issue and document the troubleshooting process\
+1. Identify the default network gateway<br>
+2. Inspect DNS configuration<br>
+3. Simulate a connectivity issue and document the troubleshooting process<br>
 
 <img width="865" height="492" alt="image" src="https://github.com/user-attachments/assets/afe517d4-ca17-45b6-b5c2-a9f37f92aa31" />
