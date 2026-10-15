@@ -13,8 +13,8 @@ Tools: ipconfig, ping, nslookup
 **Finding:** The mac has a private IPv4 address assigned to its network interface
 
 <h1>Test 2: Test Network Connectivity</h1>
-**Command**: nslookup Google.com\
-**Result:** Resolved all four ICMP replies. Response times ranged from 6.846 ms to 11.517 ms\
+**Command**: nslookup Google.com<br>
+**Result:** Resolved all four ICMP replies. Response times ranged from 6.846 ms to 11.517 ms<br>
 **Finding:** The Mac successfully reached a public ip address using ICMP
 
 <h1>Test 3: The DNS Resolution</h1>
