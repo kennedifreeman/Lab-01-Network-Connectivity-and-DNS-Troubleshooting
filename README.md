@@ -10,7 +10,7 @@ Tools: ipconfig, ping, nslookup
 **Test 1: Identify Local IP Addresses**\
 Command:ipconfig getifaddr en0\
 Result: 192.168.1.161\
-Finding: The mac has a private IPv4 address assigned to its network interface\
+Finding: The mac has a private IPv4 address assigned to its network interface
 
 **Test 2: Test Network Connectivity**\
 Command: nslookup Google.com\
@@ -38,4 +38,5 @@ These results establish a baseline for future troubleshooting exercises\
 -Identify the default network gateway\
 -Inspect DNS configuration\
 -Simulate a connectivity issue and document the troubleshooting process\
+
 <img width="865" height="492" alt="image" src="https://github.com/user-attachments/assets/afe517d4-ca17-45b6-b5c2-a9f37f92aa31" />
